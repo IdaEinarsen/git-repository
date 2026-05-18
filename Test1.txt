@@ -1,1 +1,2 @@
 This is my test document
+Now I'm doing changes in the document
