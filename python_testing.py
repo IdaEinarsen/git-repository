@@ -88,3 +88,7 @@ if for_sale:
     print("This item is for sale")
 else: 
     print("This item is not for sale")
+
+
+pizza_toppings = ["cheese", "onion", "pepperoni", "garlic"]
+print("cheese" in pizza_toppings)
