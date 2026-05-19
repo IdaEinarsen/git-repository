@@ -42,7 +42,49 @@ print(max(digits))
 print(sum(digits))
 
 
+big_numbers = list(range(1, 100))
+print(big_numbers)
+
+#tuple
+
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
 
 
+# If = Do code only IF some condition is true
+#  Else do something else (you can also ad else if statements as elif)
+age = int(input("Enter your age: "))
 
-   
+if age >= 18:
+    print("You are now singed up!")
+
+elif age < 0:
+    print("You don't exist")
+else: 
+    print("You most be 18+ to play this game")
+
+
+name = input("Enter your gamertag: ")
+
+if name == "":
+    print("YOU DIDNT TYPE IT IN")
+else:
+    print(f"Hello {name}, lets slay some monster's.")
+
+
+response = input("Would you like some water? (Yes/No): ")
+if response == "Yes":
+    print("Have some water")
+else:
+    print("DAMN YOU ")
+
+
+#boolean true or false
+
+for_sale = True
+
+if for_sale:
+    print("This item is for sale")
+else: 
+    print("This item is not for sale")
