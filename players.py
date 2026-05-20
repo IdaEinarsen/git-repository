@@ -21,4 +21,6 @@ if "wand" in weapon_type:
 print("\n You have now picked you're weapon!!")
 
 
-alien_color = ["green", "red", "yellow", "blue"]
+
+
+
