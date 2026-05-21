@@ -1,0 +1,6 @@
+# 4.6 Odd Numbers
+odd_numbers = list(range(1, 21))
+
+for odd_number in range(1, 21, 2):
+    print(odd_number)
+    
