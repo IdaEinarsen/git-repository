@@ -40,8 +40,8 @@ print(color == 'green')
 
 food = 'sushi'
 
-print("\nIs food == 'chicken'? I predict True.")
-print(food != 'chicken')
+print("\nIs food == 'sushi'? I predict True.")
+print(food == 'sushi')
 
 print("\nIs food == 'salad'? I predict False.")
 print(food == 'salad')
