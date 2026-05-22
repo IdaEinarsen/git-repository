@@ -1,1 +1,1 @@
-# 2026-05-20 Working with python, commited chapter 2 exercises and some from chapter 3.
+# 2026-05-20 Working with python, finished chapter 4 and im now reading chapter 5.
