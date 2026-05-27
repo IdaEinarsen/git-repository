@@ -12,4 +12,5 @@
 - I did most of the exercises in chapter 7
 2026-05-27
 - I finished chapter 7
-
+- finished chapter 8
+- started chapter 9s

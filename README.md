@@ -1,1 +1,1 @@
-# Today's work: Working with python, chapter 8 exercises.
+# Today's work: Working with python, started chapter 9.
