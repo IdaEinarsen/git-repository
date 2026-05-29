@@ -1,0 +1,4 @@
+In Python you can print messages to the screen.
+In Python you can store information in variables.
+In Python you can use loops to repeat tasks.
+In Python you can work with files.
