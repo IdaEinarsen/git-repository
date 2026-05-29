@@ -1,3 +1,5 @@
+# 9.8 Privileges
+
 class Users:
     """A simple user model"""
 
