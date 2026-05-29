@@ -1,24 +1,7 @@
-# 9.11 Imported Admin
 
-class Users:
-    """A simple user model"""
+from user_module import User 
 
-    def __init__(self, first_name, last_name):
-        self.first_name = first_name
-        self.last_name = last_name
-
-    def describe_user(self):
-        print("First name:", self.first_name)
-        print("Last name:", self.last_name)
-
-
-
-
-# Create instances
-user1 = Users("Joavi", "Amaya")
-
-
-class Admin(Users):
+class Admin(User):
     """Admin configuration"""
 
     def __init__(self, first_name, last_name):
@@ -38,5 +21,3 @@ class Admin(Users):
         print("Privileges:")
         for privilege in self.privileges:
             print("_", privilege)
-
-
