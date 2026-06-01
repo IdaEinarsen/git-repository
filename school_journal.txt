@@ -18,3 +18,5 @@
 - keept working with chapter 9
 2026-05-29
 - Finishing chapter 9
+2026-06-01
+- Working with chapter 10
