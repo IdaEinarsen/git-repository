@@ -47,6 +47,5 @@ admin = Admin("Ida", "Einarsen")
 
 # Show admin info
 admin.describe_user()
-
 # Show privileges
 admin.privileges.show_privileges()
