@@ -20,3 +20,6 @@
 - Finishing chapter 9
 2026-06-01
 - Working with chapter 10
+2026-06-02
+- Finished chapter 10
+- Began chapter 11
