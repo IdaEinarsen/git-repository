@@ -23,3 +23,7 @@
 2026-06-02
 - Finished chapter 10
 - Began chapter 11
+2026-06-03
+- Finished chapter 11
+- Started with the alien game
+- Did some exercises 
