@@ -4,8 +4,8 @@ import sys
 
 import pygame
 
-from settings import Settings
-from ship import Ship
+from sideways__shooter.settings import Settings
+from sideways__shooter.ship import Ship
 
 class Rocket:
     """Overall class to manage game assets and behavior."""
@@ -91,5 +91,3 @@ if __name__ == '__main__':
     rg.run_game()
 
 
-
-# RIGHT NOW I CANT MOVE TO BOTH SIDES , ITS LIKE IT FREEZES ! FIX THIS 
