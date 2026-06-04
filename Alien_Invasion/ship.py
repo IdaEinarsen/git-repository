@@ -14,15 +14,19 @@ class Ship:
         self.image = pygame.transform.scale(self.image, (100, 100))
         self.rect = self.image.get_rect()
 
+
+        # Movement flag; start with a ship that's not moving.
+        self.moving_right = False
+        self.moving_left = False
+
+    def center_ship(self):
+        """Center the ship on the screen."""
         #Start each new ship at the bottom center of the screen.
         self.rect.midbottom = self.screen_rect.midbottom
 
         #Store a float for the ship's exact horizontal position.
         self.x = float(self.rect.x)
-
-        # Movement flag; start with a ship that's not moving.
-        self.moving_right = False
-        self.moving_left = False
+        
 
     def update(self):
         """Update the ship's position based on the movement flag."""
