@@ -1,2 +1,2 @@
-# Today's work: Working with python, creating alien game
-# and doing rocket exercise
+# Today's work: Working with python, finishing alien game
+# finishing chapter 14
