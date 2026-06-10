@@ -32,5 +32,9 @@
 - finished alien game 
 2026-06-05
 - Fixed settings in alien game
-2026-06-06
--gi
+2026-06-06 - 2026-06-09
+- I finished all exercises from chapter 13 and chapter 14.
+- Couldnt upload them to git hub from laptop (will try to upload them again 10/6)
+2026-06-10 
+- I finished the alien invasion game
+- Started with chapter 15
