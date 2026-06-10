@@ -27,3 +27,10 @@
 - Finished chapter 11
 - Started with the alien game
 - Did some exercises 
+2026-06-04
+- Finished chapter 12 
+- finished alien game 
+2026-06-05
+- Fixed settings in alien game
+2026-06-06
+-gi
