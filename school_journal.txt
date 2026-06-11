@@ -38,3 +38,6 @@
 2026-06-10 
 - I finished the alien invasion game
 - Started with chapter 15
+2026-06-11
+- Trying to commit files from laptop to github (orderd usb to transer them to pc and then commit)
+- continued with chapter 15 exercises
