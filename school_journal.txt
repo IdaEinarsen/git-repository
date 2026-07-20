@@ -41,3 +41,6 @@
 2026-06-11
 - Trying to commit files from laptop to github (orderd usb to transer them to pc and then commit)
 - continued with chapter 15 exercises
+2026-07-20
+- Looking over what i have to do and what exercises im on
+- started reading the last chapter i did and continuing from there
