@@ -29,9 +29,9 @@ for row in reader:
         sitka_highs.append(high)
 
 
-# Death Valley
+# San Fransisco
 
-path = Path('Chapter_16/death_valley_2021_full.csv')
+path = Path('Chapter_16/san_fransisco.csv')
 lines = path.read_text(encoding='utf-8').splitlines()
 
 reader = csv.reader(lines)
@@ -40,17 +40,17 @@ header_row = next(reader)
 for index, header in enumerate(header_row):
     print(index, header)
 
-dv_dates, dv_highs = [], []
+sf_dates, sf_highs = [], []
 
 for row in reader:
     try:
-        current_date = datetime.strptime(row[2], '%Y-%m-%d')
-        high = int(row[6])
+        current_date = datetime.strptime(row[1], '%Y-%m-%d')
+        high = int(row[20])
     except ValueError:
         print(f"Missing data for {row[2]}")
     else:
-        dv_dates.append(current_date)
-        dv_highs.append(high)
+        sf_dates.append(current_date)
+        sf_highs.append(high)
 
 
 # Plot both locations
@@ -68,15 +68,15 @@ ax.plot(
 )
 
 ax.plot(
-    dv_dates,
-    dv_highs,
+    sf_dates,
+    sf_highs,
     color='red',
     alpha=0.7,
-    label='Death Valley'
+    label='San Francisco'
 )
 
 ax.set_title(
-    "Daily High Temperatures, 2021\nSitka vs Death Valley",
+    "Daily High Temperatures, 2021\nSitka vs San Francisco",
     fontsize=24
 )
 
